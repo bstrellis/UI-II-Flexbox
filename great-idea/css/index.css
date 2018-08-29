@@ -157,3 +157,19 @@ nav a {
 	width: 200px;
 	margin: 0 auto;
 }
+
+.services {
+	width: 70%;
+}
+
+.serviceList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.spec {
+	color: red;
+	border: 1px solid red;
+	width: 30%;
+	margin: 10px;
+}
