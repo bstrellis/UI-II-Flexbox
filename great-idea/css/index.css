@@ -161,7 +161,6 @@ nav a {
 /* Services page */
 
 .services {
-	background: lightgoldenrodyellow;
 	width: 70%;
 }
 
@@ -230,6 +229,10 @@ nav a {
 	list-style-type: disc;
 	list-style-position: inside;
 	margin-top: 10px;
+}
+
+.services .facts ul li {
+	margin: 5px;
 }
 
 .services .services-info-img {
