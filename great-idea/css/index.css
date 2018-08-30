@@ -158,18 +158,82 @@ nav a {
 	margin: 0 auto;
 }
 
+/* Services page */
+
 .services {
+	background: lightgoldenrodyellow;
 	width: 70%;
 }
 
-.serviceList {
+.services header {
+	align-items: center;
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.spec {
-	color: red;
-	border: 1px solid red;
-	width: 30%;
-	margin: 10px;
+.services header nav {
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
 }
+
+.services header nav a {
+	margin: 15px;
+}
+
+.services .services-content .services-header-img {
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.services p {
+	font-size: 10px;
+}
+
+.services .services-text {
+	border-bottom: 1px solid darkgray;
+	padding-bottom: 25px;
+}
+
+.services .cards {
+	border-bottom: 1px solid darkgray;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 25px 0;
+}
+
+.services .card {
+	background: whitesmoke;
+	border: 1px solid darkgray;
+	margin-bottom: 25px;
+	padding: 10px;
+	width: 48%;
+}
+
+.services .card button {
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.services .services-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.services .facts {
+	width: 48%;
+}
+
+.services .facts ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-top: 10px;
+}
+
+.services .services-info-img {
+	height: auto;
+	width: 48%;
+}
+
